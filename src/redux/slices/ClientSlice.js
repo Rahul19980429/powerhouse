@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-const host = 'http://localhost:3001';
+const host = 'https://gymfactory-backend.vercel.app'
 const STATUS = Object.freeze({
     IDEL: 'idel',
     LOADING: 'loading',
