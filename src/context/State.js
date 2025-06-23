@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import { useDispatch } from 'react-redux'
 import { fetchClientWithPlan } from '../redux/slices/ClientWithGymPlanSlice'
 
-const host = 'http://localhost:3001'
+//const host = 'http://localhost:3001'
+cont host = 'https://gymfactory-backend.vercel.app/'
 
 const State = (props) => {
   const dispatch = useDispatch();
