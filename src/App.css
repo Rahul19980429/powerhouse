@@ -1,0 +1,112 @@
+.setBg{
+  /* text-align: center; */
+  background: url(../public/uploads/image3.jpg) no-repeat center;
+  background-size:cover!important;
+  background-attachment:fixed!important;
+  user-select: none;
+  min-height: 100vh;
+}
+/* login page css */
+input:focus{
+  box-shadow: none!important;
+  background: inherit!important;
+}
+input::placeholder{
+  color: white!important;
+}
+.btnlogIn{
+  box-shadow: 0 0 5px #f10b0b;
+}
+.btnlogIn:hover{
+  box-shadow: 0 0 15px #d90a0a;
+}
+
+.setbgImg{
+  background: inherit;
+  }
+
+.setmarginTop{
+  margin-top: 15%!important;
+}
+
+.navbar-toggler{
+  box-shadow: none!important;
+}
+.searchinputSet:focus{
+  
+  box-shadow: 0 0 10px #d90a0a!important;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.setbgImg{
+  background: inherit;
+  }
+
+.setBoxShadow{
+  box-shadow: 0 0 10px #d90a0a
+}  
+.setBoxShadow2{
+  box-shadow: 0 0 15px #f0ec09;
+ }  
+.active{
+  box-shadow: 0 0 15px #f10b0b!important;
+}
+.cardhover:hover{
+  transform: scaleY(1.1);
+  transition: ease-in-out .2s;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#b30000; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+.setClient{
+  overflow-y: scroll;
+  max-height: 70vh;
+}
+.navbar li{
+  margin: 10px 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes bling {
+ 
+}
